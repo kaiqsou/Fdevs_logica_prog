@@ -8,16 +8,15 @@ Procedimento Topo()
 Inicio
 
 Escreval("----------------")
-Escreval(" ESCOLA CÔNEGO")
+Escreval(" ESCOLA CÃ”NEGO")
 Escreval("----------------")
-
 
 FimProcedimento
 
 Inicio
 
 Topo()
-Escreval("Qual é o seu nome?")
+Escreval("Qual Ã© o seu nome?")
 Leia(nome)
 
 Escreva("Digite a sua primeira nota: ")
@@ -28,22 +27,16 @@ Leia(notaDois)
 
 media <- (notaUm + notaDois) / 2
 
-Se (media >= 7) Então
+Se (media >= 7) EntÃ£o
   limpatela
   Topo()
-  Escreval("----------------")
-  Escreval(" ESCOLA CÔNEGO")
-  Escreval("----------------")
-  Escreval("Média: ", media)
-  Escreval("Parabéns, ", nome, "! Você foi aprovado(a)!")
-Senão
-  Topo()
+  Escreval("MÃ©dia: ", media)
+  Escreval("ParabÃ©ns, ", nome, "! VocÃª foi aprovado(a)!")
+SenÃ£o
   limpatela
-  Escreval("----------------")
-  Escreval(" ESCOLA CÔNEGO")
-  Escreval("----------------")
-  Escreval("Média: ", media)
-  Escreval(nome, ", infelizmente, você foi reprovado(a).")
+  Topo()
+  Escreval("MÃ©dia: ", media)
+  Escreval(nome, ", infelizmente, vocÃª foi reprovado(a).")
 Fimse
 
 Fimalgoritmo
